@@ -1,0 +1,8 @@
+./run_single.sh 'design_space_eval200/play_gemini3flash_skip|swebench-verified-eval200|{"mode": "skip","fix_model":"gemini-3-flash-preview","model":"gemini-3-flash-preview","worker_num":20}'
+./run_single.sh 'design_space_eval200/play_gemini3flash_agentdiet|swebench-verified-eval200|{"mode": "ours","fix_model":"gemini-3-flash-preview","model":"gemini-3-flash-preview","worker_num":20}'
+./run_single.sh 'design_space_eval200/play_gemini3flash_obs_mask|swebench-verified-eval200|{"mode": "obs_mask","fix_model":"gemini-3-flash-preview","model":"gemini-3-flash-preview","worker_num":20}'
+./run_single.sh 'design_space_eval200/play_gemini3flash_random|swebench-verified-eval200|{"mode": "random","fix_model":"gemini-3-flash-preview","model":"gemini-3-flash-preview","worker_num":20}'
+./run_single.sh 'design_space_eval200/play_gemini3flash_llm_summary|swebench-verified-eval200|{"mode": "llm_summary","fix_model":"gemini-3-flash-preview","model":"gemini-3-flash-preview","worker_num":20}'
+./run_single.sh 'design_space_eval200/play_gemini3flash_lingua|swebench-verified-eval200|{"mode": "lingua","fix_model":"gemini-3-flash-preview","model":"gemini-3-flash-preview","worker_num":20}'
+./run_single.sh 'design_space_eval200/play_gemini3flash_attncompress|swebench-verified-eval200|{"mode":"attn","attn_chunking_method":"block","attn_block_split_method":"ppl","attn_ppl_spike_threshold_k":-2,"attn_selection_method":"greedy","attn_layers":-1,"attn_rolling_m":10,"attn_mask_history":0,"attn_refresh_fixed":1,"attn_tail":2,"attn_ratio":0.2,"attn_randomize":0,"fix_model":"gemini-3-flash-preview","model":"gemini-3-flash-preview","attn_ppl_spike_method":"iqr","worker_num":10,"attn_compress_tool_response":1,"attn_compress_tool_call":0,"attn_compress_assistant_content":0}'
+

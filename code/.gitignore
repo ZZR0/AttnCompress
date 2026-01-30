@@ -1,0 +1,9 @@
+**/__pycache__/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+
+**/out/
+out/
+*_debug.txt
